@@ -4,6 +4,11 @@ using Systems.Collections;
 public class DemoScript : MonoBehaviour{
 
   public Light myLight; //unity has object types for typical game assets
+  int myvar = 1;
+  
+  void Awake(){
+    Debug.Log(myvar);
+  }
   
   void Update(){ // update runs once per frame
      if (Input.GetKey ("space")){
