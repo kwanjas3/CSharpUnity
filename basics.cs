@@ -1,6 +1,8 @@
 using UnityEngine;
 using Systems.Collections;
 
+//saving prefabs as assets. basically creating file can be dragged and dropped to be reused. chests, missiles.
+
 [System.Serializable] // required for custom classes to hold data to allow unity to see it
 public class myData {
     public int x;
