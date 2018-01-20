@@ -1,6 +1,12 @@
 using UnityEngine;
 using Systems.Collections;
 
+[System.Serializable] // required for custom classes to hold data to allow unity to see it
+public class myData {
+    public int x;
+    public int y;
+}
+
 public class DemoScript : MonoBehaviour{
 
   public Light myLight; //unity has object types for typical game assets
