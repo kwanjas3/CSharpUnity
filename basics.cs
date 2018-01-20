@@ -2,6 +2,9 @@ using UnityEngine;
 using Systems.Collections;
 
 //saving prefabs as assets. basically creating file can be dragged and dropped to be reused. chests, missiles.
+//affectors, edge colliders, platforms jump up through but not go down through
+
+//roll-a-ball, space shooter, survival shooter
 
 [System.Serializable] // required for custom classes to hold data to allow unity to see it
 public class myData {
